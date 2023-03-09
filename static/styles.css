@@ -508,8 +508,7 @@ input[type=submit]:hover {
 
 .inner-container h1 {
   text-align: center;
-  margin-left: 30px;
-  margin-bottom: 30px;
+  margin: auto;
   font-size: 30px;
   font-weight: 900;
 }
