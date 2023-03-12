@@ -35,9 +35,10 @@ body {
 }
 
 .logo img {
-  display: block;
-  margin: auto;
-  width: 40%;
+  display: flex;
+  margin:auto;
+  width: 70%;
+  height: 100%;
 }
 
 .navbar {
@@ -49,19 +50,20 @@ body {
   width: 60%;
   /* Full width */
   height: 40px;
-  margin: auto;
-  align-items: center;
-  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar .nav-link {
-  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: auto;
   color: var(--black);
 }
 
 .navbar i {
-  margin-left: 3rem;
   color: var(--black);
+  margin-left: 8rem;
 }
 
 .navbar .navbar-collapse {
@@ -70,16 +72,11 @@ body {
   border-style:ridge;
 }
 
-.navbar .nav-link {
-  justify-content:center;
-}
-
 .navbar .nav-item:not(:last-child) {
   margin-right: 2rem;
 }
 
 .navbar .nav-link {
-  margin-left: 100px;
   font-size: 2rem;
   padding: 2rem;
 }
@@ -115,7 +112,7 @@ body {
 }
 
 .item img{ 
-  width: 800px;
+  width: auto;
 }
 
 .item button {
@@ -135,7 +132,7 @@ body {
 h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 3rem;
   padding: 3rem 0%;
   color:var(--black);
   width: 100%;
@@ -168,7 +165,7 @@ h1 {
 }
 /* Rent Properties */
 .section {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 .section.rent {
@@ -189,7 +186,7 @@ h1 {
 
 .title h1 {
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -316,68 +313,31 @@ h1 {
 
 /* Contact */
 .contact {
-  background: url("\images\image4.jpg") no-repeat fixed;
-  padding: 10rem 40rem;
+  padding-top: 10px;
+  padding: 5rem 40rem;
 }
 
 .contact .row {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: top;
 }
 
-.contact .row .col h2 {
-  margin-bottom: 1.5rem;
-  font-size: 3rem;
-}
-
-.contact .row .col p {
+.contact .row .col h3 {
   font-size: 1.8rem;
-  width: 70%;
+  width: 100%;
   margin-bottom: 2rem;
 }
 
-.btn-1 {
-  background-color: var(--green);
-  color: #ddd;
-  display: inline-block;
-  border-radius: 1rem;
-  font-size: 1.8rem;
-  padding: 1.5rem 5rem;
-}
 
-.contact form input {
-  text-indent: 2rem;
-  font-size: 1.8rem;
-  width: 100%;
-  border-radius: 1rem;
-  padding: 2rem 0;
-  outline: none;
-  border: none;
-}
-
-.contact form a {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: var(--green);
-  color: white;
+.contact .row .col {
+  display: flex;
   margin: auto;
-  padding: 1.7rem 5rem;
-  border-radius: 1rem;
 }
-
 
 @media only screen and (max-width: 996px) {
   .contact {
     padding: 8rem 8rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .contact .row {
-    grid-template-columns: 1fr;
-    gap: 5rem 0;
   }
 }
 
