@@ -76,7 +76,7 @@ Navigation
 */
 
 .navigation {
-  position: relative;
+  position: fixed;
   z-index: 998;
   height: 6rem;
   line-height: 6rem;
