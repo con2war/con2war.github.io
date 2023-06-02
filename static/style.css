@@ -78,8 +78,8 @@ Navigation
 .navigation {
   position: fixed;
   z-index: 998;
-  height: 6rem;
-  line-height: 6rem;
+  height: 5rem;
+  line-height: 5rem;
 }
 
 .navigation .navbar .nav-item {
