@@ -78,8 +78,8 @@ Navigation
 .navigation {
   position: fixed;
   z-index: 998;
-  height: 1rem;
-  line-height: 1rem;
+  height: 4rem;
+  line-height: 4rem;
 }
 
 .navigation .navbar .nav-item {
@@ -161,11 +161,6 @@ Navigation
   color: white;
   border-radius: 0.5rem;
 }
-
-.header .search a {
-
-}
-
 
 @media (max-width: 996px) {
   .header .content h1 {
@@ -443,8 +438,7 @@ Navigation
 /* Contact */
 .contact {
   padding-top: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+margin: auto;
   
 }
 
@@ -470,6 +464,19 @@ Navigation
     padding: 8rem 1rem;
   }
 }
+
+.glamping-video {
+  margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.map {
+  margin: auto;
+    width: 80%;
+    height: auto;
+}
+
 /* Footer */
 .footer {
   padding: 7rem 1rem;
