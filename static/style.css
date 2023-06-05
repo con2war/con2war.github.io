@@ -78,8 +78,8 @@ Navigation
 .navigation {
   position: fixed;
   z-index: 998;
-  height: 3rem;
-  line-height: 5rem;
+  height: 1rem;
+  line-height: 1rem;
 }
 
 .navigation .navbar .nav-item {
@@ -162,6 +162,11 @@ Navigation
   border-radius: 0.5rem;
 }
 
+.header .search a {
+
+}
+
+
 @media (max-width: 996px) {
   .header .content h1 {
     font-size: 5rem;
@@ -242,6 +247,15 @@ Navigation
   margin-bottom: 1rem;
   margin-left: 5rem;
   margin-right: 5rem;
+}
+
+.title a {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.5rem 4rem;
+  background-color: var(--green);
+  color: white;
+  border-radius: 0.5rem;
 }
 
 .number {
@@ -429,7 +443,9 @@ Navigation
 /* Contact */
 .contact {
   padding-top: 10px;
-  padding: 5rem 40rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  
 }
 
 .contact .row {
