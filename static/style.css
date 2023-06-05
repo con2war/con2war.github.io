@@ -602,7 +602,7 @@ label {
 .contact-container {
   padding-top: 10rem;
   margin: auto;
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   background-color: var(--grey2)
 }
@@ -628,7 +628,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 8%;
+  padding: 10rem 8%;
 }
 
 .gallery {
