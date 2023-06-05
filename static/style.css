@@ -141,7 +141,7 @@ Navigation
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 60%;
   z-index: 1;
   text-align: center;
 }
@@ -227,7 +227,7 @@ Navigation
 
 .title {
   text-align: center;
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
   padding: 2rem;
 }
 
@@ -472,14 +472,14 @@ Navigation
 .video-container {
   display: flex;
   margin: auto;
-  width: 100%;
+  max-width: auto;
   height: auto;
 }
 
 .glamping-video {
-  display: flex;
+display: flex;
   margin: auto;
-  max-width: 100%;
+  max-width: auto;
   height: auto;
 }
 
@@ -602,7 +602,8 @@ label {
 .contact-container {
   padding-top: 10rem;
   margin: auto;
-  max-width: 60%;
+  max-width: 80%;
+  height: auto;
   background-color: var(--grey2)
 }
 
@@ -619,6 +620,25 @@ label {
   margin: auto;
   font-size: 30px;
   font-weight: 900;
+}
+
+.gallery-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.gallery img {
+  width: 100%
 }
 
 
