@@ -66,7 +66,6 @@ Header
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
-  z-index: 0;
 }
 
 /* 
@@ -236,18 +235,26 @@ Navigation
   font-weight: bold;
   font-size: 4rem;
   padding: 2rem;
-  margin:auto;
+  margin: auto;
 }
 
 .title p {
   font-weight: 100;
   font-size: 2rem;
-  margin-bottom: 1rem;
   margin-left: 5rem;
   margin-right: 5rem;
 }
 
 .title a {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.5rem 4rem;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.buttom {
   display: inline-block;
   font-size: 2rem;
   padding: 1.5rem 4rem;
@@ -462,20 +469,36 @@ Navigation
   margin: auto;
 }
 
-.glamping-video {
-    margin:auto;
-    width: 70%;
-    height: auto;
-  }
+.video-container {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
 
+.glamping-video {
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.map-container {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
 
 .map {
+  display: flex;
   margin: auto;
-  width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
 .background {
+  background-image: url('hottub.jpg');
   display: flex;
   width: 100%;
 }
@@ -483,6 +506,29 @@ Navigation
 input[type=text],
 select,
 textarea {
+  font-size: 1.5rem;
+  width: 100%;
+  /* Full width */
+  padding: 6px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 6px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=date],
+select,
+textarea {
+  font-size: 1.5rem;
   width: 100%;
   /* Full width */
   padding: 12px;
@@ -504,6 +550,7 @@ textarea {
 input[type=email],
 select,
 textarea {
+  font-size: 1.5rem;
   width: 100%;
   /* Full width */
   padding: 12px;
@@ -524,6 +571,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
+  font-size: 1.5rem;
   background-color: var(--black);
   color: white;
   align-content: center;
@@ -538,19 +586,31 @@ input[type=submit]:hover {
   background-color: var(--blue);
 }
 
+label {
+  font-size: 1.5rem;
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  margin: auto;
+  padding-top: 1px;
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
 /* Add a background color and some padding around the form */
-.container {
+.contact-container {
   padding-top: 10rem;
   margin: auto;
-  border-radius: 5px;
-  background-color: var(--white);
+  max-width: 60%;
+  background-color: var(--grey2)
 }
 
 .inner-container {
   display: absolute;
   width: 90%;
   margin: auto;
-  padding-top: 10rem;
+  padding-top: 5rem;
   align-content: center;
   background-color: var(--white);
 }
