@@ -234,7 +234,7 @@ Navigation
 .title h1 {
   font-weight: bold;
   font-size: 4rem;
-  padding: 2rem;
+  padding-bottom: 0px;
   margin: auto;
 }
 
@@ -624,17 +624,17 @@ label {
 
 .gallery-container {
   width: 100%;
-  min-height: 100vh;
+  max-height:100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15rem 8%;
+  padding: 10rem 8%;
 }
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 30px;
+  grid-gap: 10px;
 }
 
 .gallery img {
