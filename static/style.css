@@ -472,13 +472,15 @@ Navigation
 
 .video-container {
   display: flex;
+  padding: 0%;
   margin: auto;
   width: 100%;
   height: auto;
 }
 
 .glamping-video {
-display: flex;
+  display: flex;
+  padding: 0%;
   margin: auto;
   max-width: 100%;
   height: auto;
@@ -629,7 +631,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem 8%;
+  padding: 10rem 8%;
 }
 
 .gallery {
