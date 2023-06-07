@@ -470,12 +470,15 @@ Navigation
 }
 
 .glampingni_about_inner {
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: var(--grey1);
 }
 
 .glampingni_about {
   padding-top: 10rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
   background-image: url(countryside_6.jpg);
 }
 
