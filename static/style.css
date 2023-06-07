@@ -82,6 +82,11 @@ Navigation
   padding-top: 10rem;
 }
 
+.navigation a {
+  width: 150px;
+  height: 90px;
+}
+
 .navigation .navbar .nav-item {
   font-size: 1.5rem;
 }
@@ -89,14 +94,14 @@ Navigation
 @media (max-width: 996px) {
   .navigation a {
     width: 150px;
-    height: 40px;
+    height: 90px;
   }
 }
 
 @media (max-width: 567px) {
   .navigation a {
     width: 150px;
-    height: 40px;
+    height: 90px;
   }
 }
 
