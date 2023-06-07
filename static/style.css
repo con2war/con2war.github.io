@@ -653,8 +653,8 @@ label {
 .gallery-outter-container {
   padding-top: 10rem;
   padding-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   background-color: var(--grey1);
 }
 
@@ -678,7 +678,7 @@ label {
 .gallery-title {
   text-align: center;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .gallery img {
