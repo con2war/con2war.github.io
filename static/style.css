@@ -469,9 +469,14 @@ Navigation
   }
 }
 
+.glampingni_about_inner {
+  padding: 1rem;
+  background-color: var(--grey1);
+}
+
 .glampingni_about {
   padding-top: 10rem;
-  background-color: var(--grey1);
+  background-image: url(countryside_6.jpg);
 }
 
 /* Contact */
@@ -496,15 +501,14 @@ Navigation
 
 .video-container {
   display: flex;
-  padding: 0%;
   margin: auto;
   width: 100%;
   height: auto;
+  text-align: center;
 }
 
 .glamping-video {
   display: flex;
-  padding: 0%;
   margin: auto;
   max-width: 100%;
   height: auto;
@@ -625,7 +629,7 @@ label {
   margin: auto;
   max-width: 100%;
   height: auto;
-  background-image:url("countryside_6.jpg");
+  background-image: url("countryside_6.jpg");
 }
 
 .inner-container {
@@ -645,7 +649,7 @@ label {
 
 .gallery-container {
   width: 100%;
-  max-height:100vh;
+  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
