@@ -84,7 +84,7 @@ Navigation
 
 .navigation a {
   width: 150px;
-  height: 90px;
+  height: auto;
 }
 
 .navigation .navbar .nav-item {
@@ -94,14 +94,14 @@ Navigation
 @media (max-width: 996px) {
   .navigation a {
     width: 150px;
-    height: 90px;
+    height: auto;
   }
 }
 
 @media (max-width: 567px) {
   .navigation a {
     width: 150px;
-    height: 90px;
+    height: auto;
   }
 }
 
@@ -232,7 +232,7 @@ Navigation
 
 /* Rent Properties */
 .section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .section.rent {
@@ -248,13 +248,13 @@ Navigation
 .title {
   text-align: center;
   margin-bottom: 1rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .title h1 {
   font-weight: bold;
   font-size: 4rem;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   margin: auto;
 }
 
@@ -469,6 +469,11 @@ Navigation
   }
 }
 
+.glampingni_about {
+  padding: 10rem;
+  background-color: var(--grey1);
+}
+
 /* Contact */
 .contact {
   padding-top: 10px;
@@ -523,7 +528,7 @@ input[type=text],
 select,
 textarea {
   font-size: 1.5rem;
-  width: 100%;
+  width: 60%;
   /* Full width */
   padding: 6px;
   /* Some padding */
@@ -545,7 +550,7 @@ input[type=date],
 select,
 textarea {
   font-size: 1.5rem;
-  width: 100%;
+  width: 60%;
   /* Full width */
   padding: 12px;
   /* Some padding */
@@ -567,7 +572,7 @@ input[type=email],
 select,
 textarea {
   font-size: 1.5rem;
-  width: 100%;
+  width: 60%;
   /* Full width */
   padding: 12px;
   /* Some padding */
@@ -608,7 +613,7 @@ label {
   /* Full width */
   padding: 12px;
   /* Some padding */
-  margin: auto;
+  text-align: center;
   padding-top: 1px;
   resize: vertical
     /* Allow the user to vertically resize the textarea (not horizontally) */
@@ -618,16 +623,16 @@ label {
 .contact-container {
   padding-top: 10rem;
   margin: auto;
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
-  background-color: #f0f4f7;
+  background-image:url("countryside_6.jpg");
 }
 
 .inner-container {
   display: absolute;
-  width: 90%;
+  max-width: 80%;
   margin: auto;
-  padding-top: 5rem;
+  padding: 1rem;
   align-content: center;
   background-color: var(--white);
 }
