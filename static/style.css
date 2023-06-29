@@ -106,10 +106,9 @@ Navigation
 }
 
 /* Hero */
-
 .hero,
 .heroslider {
-  position: absolute;
+  position:absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -635,6 +634,7 @@ label {
 /* Add a background color and some padding around the form */
 .contact-container {
   padding-top: 15rem;
+  padding-bottom: 15rem;
   margin: auto;
   max-width: 100%;
   min-height: 100vh;
@@ -642,8 +642,7 @@ label {
 }
 
 .inner-container {
-  display: absolute;
-  max-width: 70%;
+  max-width: 85%;
   margin: auto;
   padding: 1rem;
   align-content: center;
