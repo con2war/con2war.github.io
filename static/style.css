@@ -77,30 +77,30 @@ Navigation
 .navigation {
   position: fixed;
   z-index: 998;
-  height: 4rem;
-  line-height: 4rem;
+  height: 3rem;
+  line-height: 3rem;
   padding-top: 10rem;
 }
 
 .navigation a {
-  width: 150px;
+  width: 120px;
   height: auto;
 }
 
 .navigation .navbar .nav-item {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 996px) {
   .navigation a {
-    width: 150px;
+    width: 100px;
     height: auto;
   }
 }
 
 @media (max-width: 567px) {
   .navigation a {
-    width: 150px;
+    width: 100px;
     height: auto;
   }
 }
@@ -108,7 +108,7 @@ Navigation
 /* Hero */
 .hero,
 .heroslider {
-  position:absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -641,8 +641,18 @@ label {
   background-image: url("countryside_6.jpg");
 }
 
+.booking-container {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  margin: auto;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: var(--grey1);
+}
+
 .inner-container {
   max-width: 85%;
+  min-height: 100vh;
   margin: auto;
   padding: 1rem;
   align-content: center;
@@ -689,6 +699,23 @@ label {
 
 .gallery img {
   width: 100%
+}
+
+.availability-container {
+  max-width: 85%;
+  height: 100vh;
+  margin: auto;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.availability-container h1 {
+  margin: auto;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 /* Footer */
