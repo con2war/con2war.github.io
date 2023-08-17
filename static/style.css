@@ -706,7 +706,7 @@ label {
   height: 100vh;
   margin: auto;
   padding: 1rem;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   text-align: center;
   background-color: var(--white);
@@ -717,6 +717,8 @@ label {
   font-size: 30px;
   font-weight: 900;
 }
+
+
 
 /* Footer */
 .footer {
