@@ -10,6 +10,8 @@
   <meta name="description"
     content="Lounge in luxury at Craig View Luxury Glamping Pods, based in Pomeroy Co. Tyrone N.I.">
 
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
   <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
@@ -52,6 +54,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
+
   <title>Craig View Luxury Glamping Pods Co. Tyrone Pomeroy</title>
 </head>
 
@@ -78,28 +82,31 @@
               <a class="nav-item nav-link" id="places" href="/places">Things to do</a>
               <a class="nav-item nav-link" id="food" href="/food">Places to Eat</a>
               <a class="nav-item nav-link" id="contact" href="/contact">Contact Us</a>
-              <a class="nav-item nav-link" id="availability" href="/availability">Check Availability</a>
               <a class="nav-item nav-link" id="book" href="/book">Book Now</a>
             </div>
           </div>
       </nav>
     </div>
 
-    <!--Hero Slider-->
-    <div class="hero">
-      <div class="swiper-container heroslider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="static/glamping_pod_6.jpg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="static/windmill.jpg" alt="" />
-          </div>
-        </div>
+    <section aria-label="Newest Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="static/sunnysidepod_g.jpg" alt="Nature Image #1">
+          </li>
+          <li class="slide">
+            <img src="static/windmill_g.jpg" alt="Nature Image #2">
+          </li>
+          <li class="slide">
+            <img src="static/purple_hottub_g.jpg" alt="Nature Image #3">
+          </li>
+        </ul>
       </div>
-    </div>
+    </section>
 
-<!--Call to action on the hero image-->
+    <!--Call to action on the hero image-->
     <div class="content">
       <h1>BOOK YOUR DREAM STAY TODAY!</h1>
       <div class="search">
@@ -148,8 +155,8 @@
       <div class="map-container">
         <div class="map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2309.642315513688!2d-6.951427523238839!3d54.627906872688676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48607d272d5f2305%3A0xd28196c9aebdd30e!2s17%20Murnells%20Rd%2C%20Pomeroy%2C%20Dungannon%20BT70%202SL!5e0!3m2!1sen!2suk!4v1685975750936!5m2!1sen!2suk"
-            width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2309.684543941627!2d-6.953079897034669!3d54.627163168076045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48607d1f77b1c549%3A0xe004d4e90edadc79!2s12%20Murnells%20Rd%2C%20Dungannon%20BT70%202SD!5e0!3m2!1sen!2suk!4v1692288186566!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
