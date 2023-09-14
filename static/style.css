@@ -639,7 +639,7 @@ label {
 /* Add a background color and some padding around the form */
 .contact-container {
   padding-top: 15rem;
-  padding-bottom: 15rem;
+  padding-bottom: 5rem;
   margin: auto;
   max-width: 100%;
   min-height: 100vh;
