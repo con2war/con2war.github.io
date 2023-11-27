@@ -5,16 +5,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="canonical" href="https://craigviewluxuryglampingni.com/" />
-    <meta name="title" content="Craig View Luxury Glamping N.I">
-    <meta name="description"
-        content="Lounge in luxury at Craig View Luxury Glamping Pods, based in Pomeroy Co. Tyrone N.I.">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
-    <link rel="manifest" href="static/site.webmanifest">
-    <link rel="mask-icon" href="static/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="title" content="Keeran Glen Holiday Rental">
+    <meta name="description" content="Welcome to our charming 2-bedroom retreat in the heart of Pomeroy, Co. Tyrone! Nestled in the tranquil
+    countryside, our property offers a serene escape with breathtaking landscapes that paint the perfect
+    backdrop for your getaway.">
+
+    <!--Favicons-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -39,128 +42,173 @@
     <!-- Swiper js -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- Custom StyleSheet -->
-    <link rel="stylesheet" href="static/style.css" />
+    <link rel="stylesheet" href="static/styles.css" />
     <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Craigview Luxury Glamping Pods Co. Tyrone Pomeroy</title>
+    <title>Keeranglen Holiday Rentals</title>
 </head>
+<!-- Header -->
+<header class="header" id="glamping-pods-ni">
+    <!--Navigation Bar-->
+    <div class=navigation id="glamping-pods-nav">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="/">
+                    <img src="static/logo-2.jpeg" class="d-inline-block align-top"
+                        alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>Menu
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <!--Nav links-->
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home" href="/">Home</a>
+                        <a class="nav-item nav-link" id="about" href="/about">About Us</a>
+                        <a class="nav-item nav-link" id="contact" href="/gallery">Gallery</a>
+                        <a class="nav-item nav-link" id="contact" href="/book">Book</a>
+                    </div>
+                </div>
+        </nav>
+    </div>
+</header>
+
 
 <body>
-    <!-- Header -->
-    <header class="header" id="glamping-pods-ni">
-        <div class=navigation id="glamping-pods-nav">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-                <div class="container-fluid">
+    
+    <div id="cookiePopup" class="hide">
+        <img src="static/cookies.jpg" />
+        <p>
+            Our website uses cookies to provide your browsing experience and
+            relevant information. Before continuing to use our website, you agree &
+            accept of our <a href="/privacy">Cookie Policy & Privacy.</a>
+        </p>
+        <button id="acceptCookie" style="background-color: #387A3D;">Ok</button>
+    </div>
 
-                    <a class="navbar-brand" href="/">
-                        <img src="static/logo.jpg" class="d-inline-block align-top" alt="Craig View Glamping Pods N.I">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                        <span class="navbar-toggler-icon"></span>Menu
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbar">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link" id="home" href="/">Home</a>
-                            <a class="nav-item nav-link" id="about" href="/about">About Us</a>
-                            <a class="nav-item nav-link" id="gallery" href="/gallery">Gallery</a>
-                            <a class="nav-item nav-link" id="places" href="/places">Things to do</a>
-                            <a class="nav-item nav-link" id="food" href="/food">Places to Eat</a>
-                            <a class="nav-item nav-link" id="contact" href="/contact">Contact Us</a>
-                            <a class="nav-item nav-link" id="book" href="/book">Book Now</a>
-                        </div>
-                    </div>
-            </nav>
+    <!-- Image Grid with text -->
+    <section class="about-section grid-layout" id="glamping-pods-ni/about">
+        <div class="about-title">
+            <h1>Here's what we have to offer...</h1>
+            <p>
+                Situated in Pomeroy village, you'll find yourself immersed in the local charm, with an array of inviting
+                bars, restaurants, cafes, and shops just a stone's throw away. If you're in the mood for a bit more
+                hustle and bustle, the vibrant town center of Omagh is a mere 30-minute drive, offering a delightful mix
+                of activities and amenities.
+
+                Now, let's step inside your home away from home. Our cozy abode features 2 bedrooms, providing
+                comfortable accommodation for up to 6 people. The living space is thoughtfully designed, encompassing a
+                fully-equipped kitchen, a dining area, and a relaxing living room. Whip up a culinary masterpiece in the
+                kitchen, equipped with a fridge, 4-hob cooker, oven, grill, and a handy washing machine for your
+                convenience.
         </div>
 
-        <!-- Grid -->
-        <section class="glampingni_about" id="glamping-pods-ni/about">
-            <div class="title">
-                <div class="glampingni_about_inner">
-                    <h1>Welcome to Luxury Glamping!</h1>
-                    <p>
-                        Craig View Luxury Glamping Pods, nestled in the stunning countryside of Co. Tyrone,
-                        Northern Ireland. With its prime location overlooking the majestic Craig mountain, our glamping
-                        site
-                        offers a perfect getaway for nature lovers and those seeking a unique, tranquil escape.
+        <div class="about container">
+            <div class="box box1">
+                <img src="static/dining.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+            </div>
+            <div class="box box2">
+                <img src="static/parking.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+            </div>
+            <div class="box box3">
+                <img src="static/utilies.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+            </div>
 
-                        At Craig View, we specialize in providing unforgettable overnight staycations in our cozy and
-                        well-equipped glamping pods. Immerse yourself in the beauty of the surrounding natural landscape
-                        while enjoying the comforts of modern amenities. Each pod is thoughtfully designed to create a
-                        comfortable and stylish retreat, ensuring a truly exceptional glamping experience.</p>
+        </div>
+        <div class="about-title">
+            <p>Ready for your next adventure?</p>
+            <a href="/book">Book Now</a>
+        </div>
 
-                    <!-- Responsive iFrame -->
-                    <div class="flexible-container" controls autoplay muted>
-                        <iframe src="static/countryside_2.mp4" type="video/mp4" alt="Craig View Glamping Pods N.I">
-                        </iframe>
-                    </div>
+        <div class="about-title">
+            <h1>Enjoy a cosy night away</h1>
+            <p>
+                Unwind on the plush luxury corner sofa as you catch up on your favorite shows on the TV, creating a
+                homey atmosphere that's perfect for winding down after a day of exploration. The full shower and toilet
+                room add an extra touch of comfort to your stay.
 
-                    <p>Don't Hesitate, Book today!</p>
-                    <a href="/contact">Contact Us</a>
+                As you retreat to the bedrooms, you'll find queen-sized beds adorned with soft linens, mirrors, and
+                storage facilities. Each bedroom also features its own TV, allowing you to indulge in some well-deserved
+                downtime.
 
-                    <h1>Natural Spring Water Hot Tubs!</h1>>
-                    <p>
-                        Our self-catering glamping pods are designed with your convenience in mind. Embrace the freedom
-                        of
-                        creating your own culinary delights in our fully equipped kitchenettes or take advantage of the
-                        option to order delivery from local restaurants, allowing you to savor the flavors of the region
-                        without leaving the comfort of your pod.
+                Your Pomeroy escape awaits – a blend of countryside tranquility and modern comforts. Book your stay with
+                us and make memories in this idyllic corner of Co. Tyrone.
+        </div>
 
-                        Indulge in relaxation and rejuvenation in our state-of-the-art natural spring water hot tubs.
-                        Immerse yourself in the warm, soothing waters while marveling at the surrounding nature. Whether
-                        you
-                        choose to unwind after a day of exploring or simply bask in the serenity of the countryside, our
-                        hot
-                        tubs provide the perfect sanctuary for your well-being.
+        <div class="about container">
+            <div class="box box1">
+                <img src="static/sofa.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+            </div>
+            <div class="box box2">
+                <img src="static/bedroom-2-2.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+            </div>
+            <div class="box box3">
+                <img src="static/bedroom-utilities.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+            </div>
+        </div>
+        <div class="about-title">
+            <p>Still haven't seem emough?</p>
+            <a href="/gallery">View Gallery</a>
+        </div>
 
-                        At Craig View, we believe in cherishing the simple pleasures in life. That's why we invite you
-                        to
-                        bring your own drink to the pods, allowing you to unwind and enjoy the tranquil ambiance in your
-                        own
-                        personal way. Sip on your favorite beverage as you take in the panoramic views or gather with
-                        loved
-                        ones for an evening of laughter and conversation under the starry sky.</p>
 
-                    <!-- Responsive iFrame -->
-                    <div class="flexible-container" controls autoplay muted>
-                        <iframe src="static/hot_tub_scenic.mp4" type="video/mp4" alt="Craig View Glamping Pods N.I">
-                        </iframe>
-                    </div>
-
-                    <p>Want to see more? Check out our Gallery</p>
-                    <a href="/gallery">Gallery</a>
-                </div>
-        </section>
+    </section>
 </body>
 
-<!-- Footer -->
 <footer class="footer">
     <div class="row">
         <div class="col d-flex">
             <h4>INFORMATION</h4>
             <a href="/about">About us</a>
-            <a href="/contact">Contact Us</a>
-            <p>&copy Venture IT 2023</p>
+            <a href="/gallery">Gallery</a>
+            <a href="https://ventureitsolutions.co.uk">&copy Venture IT</a>
         </div>
         <div class="col d-flex">
             <h4>Where to Find Us</h4>
-            <p>17 Murnells Road, Pomeroy, Dungannon</p>
-            <p>Tel: 07990526986</p>
-            <p>Email: stay@craigviewluxuryglampingni.com</p>
+            <p>
+                215 Termon Rd, Pomeroy, Dungannon BT70 2TA</p>
+            <p fa fa-envelope> Email: keeranglen@gmail.com
+            </p>
+            <p>
+                &phone;: 028 87758 822
+            </p>
         </div>
         <div class="col d-flex">
-            <div class="socials">
-                <span><a href="https://m.facebook.com/profile.php?id=100093120443643"><i class="bx bxl-facebook-square"
-                            aria-hidden="true"></a></i></span>
-                <span><a href="https://www.instagram.com/craigviewglamping/"><i class="bx bxl-instagram-alt"
-                            aria-hidden="true"></a></i></span>
+            <div class="contact-container">
+                <div class="title">
+                    <div class="inner-container">
+                        <form action="https://formsubmit.co/98c033f16b21f4a35fb08dd606050fe3" method="POST">
+                            <h1>Contact Us</h1>
+
+                            <input type="text" name="Name" placeholder="Your name.." required> <br>
+
+                            <input type="email" name="Email" placeholder="Your email.." required> <br>
+
+                            <label for="date">Requested Date </label>
+
+                            <input type="date" name="Date" placeholder="Date" required> <br>
+
+                            <input type="text" name="Phone" placeholder="Your phone number.." required> <br> <br>
+
+                            <label for="Requestion Information">Request Information
+                            </label>
+
+                            <textarea name="message" placeholder="Write something.." style="height:100px"
+                                required> </textarea>
+                            <br>
+                            <input type="submit" value="Submit">
+
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </footer>
 
-
+<script src="js/lightbox-plus-jquery.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -171,6 +219,6 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="website\js\slider.js"></script>
+<script src="static/script.js"></script>
 
 </html>
