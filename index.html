@@ -54,42 +54,55 @@
     <!--Navigation Bar-->
     <div class=navigation id="glamping-pods-nav">
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-
-                <a class="navbar-brand" href="/">
-                    <img src="static/logo-2.jpeg" class="d-inline-block align-top" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone ">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                    <span class="navbar-toggler-icon"></span>Menu
-                </button>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <!--Nav links-->
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home" href="/">Home</a>
-                        <a class="nav-item nav-link" id="about" href="/about">About Us</a>
-                        <a class="nav-item nav-link" id="contact" href="/gallery">Gallery</a>
-                        <a class="nav-item nav-link" id="contact" href="/book">Book</a>
+            <!-- Navigation -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#home">
+                        <img src="static/images/k.png" alt="Keeranglen Holiday Rentals">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </div>
                     </div>
                 </div>
-        </nav>
+            </nav>
     </div>
 
-    <!--Hero Slider-->
-    <div class="hero">
-        <div class="container heroslider">
-            <img src="static/hero.jpg" alt="" />
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-carousel">
+            <div class="hero-slides">
+                <div class="hero-slide active">
+                    <img src="static/images/outside-frontright.jpg" alt="Holiday Rental Pomeroy Co. Tyrone Northern Ireland">
+                </div>
+                <div class="hero-slide">
+                    <img src="static/images/dining.jpg" alt="Holiday Rental Pomeroy Co. Tyrone Northern Ireland">
+                </div>
+                <div class="hero-slide">
+                    <img src="static/images/bedroom-2.jpg" alt="Holiday Rental Pomeroy Co. Tyrone Northern Ireland">
+                </div>
+                <div class="hero-slide">
+                    <img src="static/images/flowers.jpg" alt="Holiday Rental Pomeroy Co. Tyrone Northern Ireland">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1 class="display-4">Keeranglen Holiday Rentals</h1>
+                <h2 class="lead">Pomeroy, Co. Tyrone</h2>
+                <a href="#location" class="btn btn-primary btn-lg mt-4">Book Now</a>
+            </div>
+            <div class="hero-controls">
+                <button class="hero-prev" aria-label="Previous slide">❮</button>
+                <div class="hero-dots"></div>
+                <button class="hero-next" aria-label="Next slide">></button>
+            </div>
         </div>
-    </div>
-
-    <!--Call to action on the hero image-->
-    <div class="content">
-        <h1><span style="background-color: rgba(255, 255, 255, 0.8)">Keeranglen Holiday Rentals</span></h1>
-        <h2><span style="background-color: rgba(255, 255, 255, 0.8)">Pomeroy, Co. Tyrone</span></h2>
-        <div class="search">
-            <a href="/book">Book Now</a>
-        </div>
-    </div>
-
+    </section>
 </header>
 
 <body>
@@ -104,109 +117,281 @@
         <button id="acceptCookie" style="background-color: #387A3D;">Ok</button>
     </div>
 
-    <!-- Image Grid with text -->
-    <section class="section grid-layout" id="glamping-pods-ni/about">
-        <div class="title">
-            <h1>Keeranglen House...</h1>
-            <p>
-                Welcome to our charming 2-bedroom retreat in the heart of Pomeroy, Co. Tyrone! Nestled in the tranquil
-                countryside, our property offers a serene escape with breathtaking landscapes that paint the perfect
-                backdrop for your getaway.
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-title" data-aos="fade-up">
+                <h2 class="display-4">Your Home Away From Home in Pomeroy</h2>
+                <p class="lead">Experience Northern Ireland's finest holiday rental accommodation in County Tyrone</p>
+            </div>
 
-                Situated in Pomeroy village, you'll find yourself immersed in the local charm, with an array of inviting
-                bars, restaurants, cafes, and shops just a stone's throw away. If you're in the mood for a bit more
-                hustle and bustle, the vibrant town center of Omagh is a mere 30-minute drive, offering a delightful mix
-                of activities and amenities.
-            </p>
-        </div>
-        <div class="wrapper container">
-            <div class="box box1">
-                <img src="static/hero.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+            <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                    Nestled in the picturesque village of Pomeroy, County Tyrone, our holiday rental property offers the
+                    perfect blend of rural charm and modern comfort. Just 30 minutes from Omagh and ideally situated for
+                    exploring Northern Ireland's stunning countryside, our two-bedroom house provides everything you
+                    need for a memorable stay.
+                </p>
             </div>
-            <div class="box box2">
-                <img src="static/dining.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="gallery-title text-center mb-5">
+                <h2 class="display-4">Explore Our Space</h2>
+                <p class="lead">Take a visual tour of our beautiful property</p>
             </div>
-            <div class="box box3">
-                <img src="static/sofa.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone" />
+            <div class="gallery">
+                <div class="gallery-title">
+                    <h1>The House</h1>
+                    <p>Private bathroom</p>
+                    <p>2 bedrooms</p>
+                    <p>Parking for 4 cars</p>
+                    <p>Private Kitchen</p>
+                    <p>Utility Room</p>
+                </div>
+                <a href="static/images/hero.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/hero.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/outside-front-right.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/outside-front-right.jpg"
+                        alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/images/outside-frontright.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/outside-frontright.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/images/parking.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/parking.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
             </div>
-            <div class="box box4">
-                <img src="static/bedroom-1.jpg" alt="Staycation N.I" />
-            </div>
-        </div>
-        <div class="title">
-            <p>Want to see more?</p>
-            <a href="/gallery">Gallery</a>
         </div>
 
+        <div class="gallery-container-2">
+            <div class="gallery">
+                <div class="gallery-title">
+                    <h1>Living Space</h1>
+                    <p>Corner Sofa</p>
+                    <p>Dining table</p>
+                    <p>Cooker, Fridge Kettle</p>
+                    <p>Microwave, Toaster, Airfryer</p>
+                    <p>Washing Machine and Private Bathroom</p>
+                </div>
+                <a href="static/images/dining.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/dining.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/sink.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/sink.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/images/sofa.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/sofa.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/images/utilies.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/utilies.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+            </div>
+        </div>
+
+        <div class="gallery-container-3">
+            <div class="gallery">
+                <div class="gallery-title">
+                    <h1>Bedrooms</h1>
+                    <p>Queen sized bed</p>
+                    <p>Mirrors</p>
+                    <p>24" Television</p>
+                    <p>Desk + Storage Space</p>
+                </div>
+                <a href="static/images/bedroom-1.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/bedroom-1.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/images/bedroom-2.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/bedroom-2.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/images/bedroom-utilities.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/bedroom-utilities.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+                <a href="static/images/shower.jpg" data-lightbox="models"
+                    data-title="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                    <img src="static/images/shower.jpg" alt="Keeranglen Holiday Rentals Pomeroy Co. Tyrone">
+                </a>
+            </div>
+        </div>
     </section>
 
-    <section class="contact" id="glamping-pods-ni/location">
-        <div class="title">
-            <h1>Where to find us...</h1>
-            <div class="map-container">
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.526350359108!2d-6.966010822923411!3d54.594719580589654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48607d7ab7e09161%3A0xbb0023c0bfe9525f!2s215%20Termon%20Rd%2C%20Pomeroy%2C%20Dungannon%20BT70%202TA!5e0!3m2!1sen!2suk!4v1700679890684!5m2!1sen!2suk"
-                        width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2 class="display-4">Guest Reviews</h2>
+                <p class="lead">What our guests say about their stay</p>
+            </div>
+
+            <div class="reviews-carousel">
+                <div class="reviews-track">
+                    <div class="review-card" data-aos="fade-up">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Everything perfect. The hosts are very willing and friendly"</p>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <h4>Laura</h4>
+                                <p class="date">August 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"The place was beautiful and had a great location to see the
+                            surroundings, quiet and surrounded by nature. It was the best stay of our vacation in
+                            Ireland."</p>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <h4>Francesca</h4>
+                                <p class="date">August 2024</p>
+                                <p class="airbnb-info">7 years on Airbnb</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Absolutely gorgeous house, great location, a little hard to find, but
+                            couldn't fault the stay."</p>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <h4>Pamela</h4>
+                                <p class="date">July 2024</p>
+                                <p class="airbnb-info">2 years on Airbnb</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"The house is fantastic, fabulous views, everything you could possibly
+                            need. Kids loved watching boys on quad in field x"</p>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <h4>Lynsay</h4>
+                                <p class="date">July 2024</p>
+                                <p class="airbnb-info">8 years on Airbnb</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"It was a nice and pleasant stay, super clean and well arranged. Highly
+                            recommended ❤️"</p>
+                        <div class="reviewer">
+                            <div class="reviewer-info">
+                                <h4>Amal</h4>
+                                <p class="date">July 2024</p>
+                                <p class="airbnb-info">2 years on Airbnb</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="prev-btn" aria-label="Previous review"><</button>
+                    <div class="carousel-dots"></div>
+                    <button class="next-btn" aria-label="Next review">></button>
                 </div>
             </div>
-            <br>
-            <p>&phone;: 028 87758 822</p>
-            <p>Email: keeranglen@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Location & Booking Section -->
+    <section id="location" class="location-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2 class="display-4">Where to Find Us</h2>
+                <p class="lead">Your perfect getaway in Pomeroy, County Tyrone</p>
+            </div>
+
+            <div class="location-grid">
+                <!-- Map Column -->
+                <div class="map-container" data-aos="fade-right">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.537156453884!2d-6.8833247!3d54.5977777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48608144a6880555%3A0x0!2zNTTCsDM1JzUyLjAiTiA2wrA1MycwMC4wIlc!5e0!3m2!1sen!2suk!4v1710371245247!5m2!1sen!2suk"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div class="contact-info" data-aos="fade-left">
+                    <div class="info-card address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>215 Termon Rd, Pomeroy</p>
+                        <p>Dungannon BT70 2TA</p>
+                        <p>Northern Ireland</p>
+                    </div>
+
+                    <div class="info-card contact">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Contact</h3>
+                        <p><i class="fas fa-phone"></i> <a href="tel:02887758822">028 8775 8822</a></p>
+                        <p><i class="fas fa-envelope"></i> <a
+                                href="mailto:keeranglen@gmail.com">keeranglen@gmail.com</a></p>
+                    </div>
+
+                    <div class="info-card booking">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>Book Your Stay</h3>
+                        <div class="booking-buttons">
+                            <a href="https://www.airbnb.com/your-listing-url" target="_blank"
+                                class="booking-btn airbnb">
+                                <img src="static/images/airbnb.png" alt="Book on Airbnb" class="booking-logo">
+                            </a>
+                            <a href="https://www.booking.com/your-listing-url" target="_blank"
+                                class="booking-btn booking-com">
+                                <img src="static/images/booking-com.svg" alt="Book on Booking.com" class="booking-logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
 
 <footer class="footer">
-    <div class="row">
-        <div class="col d-flex">
-            <h4>INFORMATION</h4>
-            <a href="/about">About us</a>
-            <a href="/gallery">Gallery</a>
-            <a href="https://ventureitsolutions.co.uk">&copy Venture IT</a>
-        </div>
-        <div class="col d-flex">
-            <h4>Where to Find Us</h4>
-            <p>
-                215 Termon Rd, Pomeroy, Dungannon BT70 2TA</p>
-            <p fa fa-envelope> Email: keeranglen@gmail.com
-            </p>
-            <p>
-                &phone;: 028 87758 822
-            </p>
-        </div>
-        <div class="col d-flex">
-            <div class="contact-container">
-                <div class="title">
-                    <div class="inner-container">
-                        <form action="https://formsubmit.co/98c033f16b21f4a35fb08dd606050fe3" method="POST">
-                            <h1>Contact Us</h1>
+    <div class="inner-container">
+        <form action="https://formsubmit.co/98c033f16b21f4a35fb08dd606050fe3" method="POST">
+            <h1>Contact Us</h1>
 
-                            <input type="text" name="Name" placeholder="Your name.." required> <br>
+            <input type="text" name="Name" placeholder="Your name.." required> <br>
 
-                            <input type="email" name="Email" placeholder="Your email.." required> <br>
+            <input type="email" name="Email" placeholder="Your email.." required> <br>
 
-                            <label for="date">Requested Date </label>
+            <label for="date">Requested Date </label>
 
-                            <input type="date" name="Date" placeholder="Date" required> <br>
+            <input type="date" name="Date" placeholder="Date" required> <br>
 
-                            <input type="text" name="Phone" placeholder="Your phone number.." required> <br> <br>
+            <input type="text" name="Phone" placeholder="Your phone number.." required> <br> <br>
 
-                            <label for="Requestion Information">Request Information
-                            </label>
+            <label for="Requestion Information">Request Information
+            </label>
 
-                            <textarea name="message" placeholder="Write something.." style="height:100px"
-                                required> </textarea>
-                            <br>
-                            <input type="submit" value="Submit">
+            <textarea name="message" placeholder="Write something.." style="height:100px" required> </textarea>
+            <br>
+            <input type="submit" value="Submit">
 
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </form>
+        <div><a href="https://ventureitsolutions.co.uk">&copy Venture IT 2024</a></div>
 </footer>
 
 <script src="js/lightbox-plus-jquery.js"></script>
